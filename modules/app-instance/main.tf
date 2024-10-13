@@ -8,6 +8,6 @@ resource "aws_instance" "app_server" {
   instance_type   = var.server_type
 
   tags = {
-    Name = "ExampleAppServerInstance-${count}"
+    Name = "ExampleAppServerInstance"
   }
 }
